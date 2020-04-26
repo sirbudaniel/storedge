@@ -1,0 +1,29 @@
+{
+  "name": "storedge",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/bitattackers/core_storage_engine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/bitattackers/core_storage_engine#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "formidable": "^1.2.1",
+    "http-server": "^0.12.0",
+    "ip": "^1.1.5",
+    "ip-address": "^5.8.9",
+    "libnmap": "^0.4.11",
+    "md5": "^2.2.1",
+    "node-nmap": "^4.0.0",
+    "request": "^2.86.0"
+  }
+}

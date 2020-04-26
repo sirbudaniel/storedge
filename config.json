@@ -1,0 +1,14 @@
+{
+  "port": 8500,
+  "scan_port_range": {
+    "from": 8500,
+    "to": 8700
+  },
+  "max_ips": 10,
+  "scan_ms": 60000,
+  "shards" : 15,
+  "replicas": 3,
+  "data_path": "/data/",
+  "rebalance_time": 6000,
+  "sensitive": 0
+}
